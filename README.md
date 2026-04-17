@@ -22,11 +22,15 @@ Para distribuir esta ferramenta para outros técnicos que não possuem Python in
 Passo 1: Instale o PyInstaller
 bash
 pip install pyinstaller
+
 Passo 2: Gere o executável
 bash
+
 py -m PyInstaller --onefile --clean --name monitor_impressoras monitor_universal.py
+
 Passo 3: Localize o executável
 O arquivo monitor_impressoras.exe estará disponível na pasta dist/ após a conclusão.
 
 Passo 4: Distribuição
-Você pode copiar apenas o arquivo .exe para qualquer computador Windows. Ele não precisa do Python instalado. Basta colocar o executável na mesma pasta que o arquivo ips_config.txt.
+Você pode copiar apenas o arquivo .exe para qualquer computador Windows. Ele não precisa do Python instalado. Basta colocar 
+o executável na mesma pasta que o arquivo ips_config.txt.
